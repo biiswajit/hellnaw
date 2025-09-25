@@ -1,13 +1,17 @@
 {
   "name": "hellnaw",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
     "start": "next start",
-    "lint": "biome check",
-    "format": "biome format --write"
+    "format:check": "pnpm exec biome format",
+    "format:fix": "pnpm exec biome format --write",
+    "lint:check": "pnpm exec biome lint",
+    "lint:fix": "pnpm exec biome lint --write",
+    "format-and-lint:check": "pnpm exec biome check",
+    "format-and-lint:fix": "pnpm exec biome check --write"
   },
   "dependencies": {
     "react": "19.1.0",
@@ -22,5 +26,10 @@
     "@tailwindcss/postcss": "^4",
     "tailwindcss": "^4",
     "@biomejs/biome": "2.2.0"
-  }
+  },
+  "author": "Biswajit Malakar <mebiswajitmalakar@gmail.com>",
+  "keywords": [
+    "hellnaw",
+    "portfolio"
+  ]
 }

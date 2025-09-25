@@ -11,8 +11,12 @@
   },
   "formatter": {
     "enabled": true,
+    "attributePosition": "auto",
+    "formatWithErrors": false,
     "indentStyle": "space",
-    "indentWidth": 2
+    "indentWidth": 4,
+    "lineWidth": 120,
+    "lineEnding": "lf"
   },
   "linter": {
     "enabled": true,
