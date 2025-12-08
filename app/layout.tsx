@@ -3,18 +3,18 @@ import "@/styles/styles.css";
 import { inter } from "@/styles/font";
 
 export const metadata: Metadata = {
-  title: "HELLNAW",
-  description: "We make short-form videos",
+    title: "HELLNAW",
+    description: "We make short-form videos",
 };
 
 export default function RootLayout({
-  children,
+    children,
 }: Readonly<{
-  children: React.ReactNode;
+    children: React.ReactNode;
 }>) {
-  return (
-    <html lang="en" className={inter.variable}>
-      <body>{children}</body>
-    </html>
-  );
+    return (
+        <html lang="en" className={inter.variable}>
+            <body className="font-sans text-white">{children}</body>
+        </html>
+    );
 }
