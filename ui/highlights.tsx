@@ -38,7 +38,7 @@ function HighlightBox({ children, className }: ComponentProps<"div">) {
             className={tw(
                 className,
                 "grid place-content-center border-2 border-white rounded-box uppercase text-center tracking-tighter",
-                "text-2xl lg:text-xl xl:text-2xl 2xl:text-3xl",
+                "text-xl lg:text-xl xl:text-2xl 2xl:text-3xl",
                 "py-10 lg:py-12 xl:py-14 2xl:py-18",
             )}
         >
